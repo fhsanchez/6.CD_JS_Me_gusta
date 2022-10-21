@@ -31,7 +31,8 @@ section>h2{
 
 .items{
 
-    grid-row: 1 / span 3;
+    display: flex;
+
 }
 
 
@@ -46,9 +47,10 @@ section>h2{
 }
 
 .vertical{
-    width: 120px;
+    width: 130px;
     height: 200px;
     margin-top: 10px;
+    margin-right: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
